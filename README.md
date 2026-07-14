@@ -1,6 +1,6 @@
 # Mantis Jumping Analysis
 
-This repository contains analysis code and data for studying mantis jumping behavior from DeepLabCut (DLC) pose-tracking outputs. The workflow converts body-part coordinates into center-of-mass (COM) trajectories, computes takeoff kinematics, and generates figures for distance- and angle-dependent jumping analyses.
+This repository contains analysis code and data for studying mantis jumping behavior. The workflow converts body-part coordinates into center-of-mass (COM) trajectories, computes takeoff kinematics, and generates figures for distance- and angle-dependent jumping analyses.
 
 ## Project overview
 
@@ -16,8 +16,7 @@ The notebook in this repository processes raw DLC-derived CSV files to:
 
 - `Kumar-Sane_MantisJumpingPaper_Codes.ipynb` – main Jupyter notebook containing the analysis workflow and plotting code.
 - `Kumar-Sane_MantisJumping_Distance_Angle.csv` – processed metadata/summary table containing derived variables for each trial.
-- `DeepLabCut digitized csv files/` – raw or filtered DLC output files used as input for the analysis.
-- `Trimmed csv files for analysis/` – trimmed trial CSV files used during preprocessing and analysis.
+- `CSV files with position coordinates` – a single folder containing the CSV files derived from the DLC output and used as input for the analysis.
 
 ## Data inputs
 
