@@ -1,0 +1,21 @@
+Figure,Model_ID,Formula,Dependent_Variable,Predictor,Coef,Std_Err,z_value,p-value,CI_2.5%,CI_97.5%,Power_Lvl1,Power_Lvl2,Group_Var,Random_Slope_Var,Group_x_Slope_Cov,Residual_Var,Log_Likelihood,N_Obs,N_Groups
+Fig. 2c,Model 1,TakeOffSpeed ~ TargetDistance,TakeOffSpeed,Intercept,0.63,0.04,14.59,<0.05,0.55,0.72,1,1,0.02661,1.16445,-0.15126,0.00252,640.99287,440,15
+Fig. 2c,Model 1,TakeOffSpeed ~ TargetDistance,TakeOffSpeed,TargetDistance,4.01,0.30,13.31,<0.05,3.42,4.60,1,1,0.02661,1.16445,-0.15126,0.00252,640.99287,440,15
+Fig. 2d,Model 2,TakeOffAngle ~ TargetDistance,TakeOffAngle,Intercept,-5.26,2.13,-2.47,<0.05,-9.43,-1.09,0.69569,0.62603,60.19074,9294.48261,-238.59112,12.75894,-1232.94478,440,15
+Fig. 2d,Model 2,TakeOffAngle ~ TargetDistance,TakeOffAngle,TargetDistance,174.46,26.22,6.65,<0.05,123.07,225.85,1,0.99975,60.19074,9294.48261,-238.59112,12.75894,-1232.94478,440,15
+Fig. 3c,Model 3,Frequency ~ TargetDistance_Peer,Frequency,Intercept,2.2,0.2,11.07,<0.05,1.77,2.54,1,0.99983,0.03585,,,0.09791,-32.48548,83,6
+Fig. 3c,Model 3,Frequency ~ TargetDistance_Peer,Frequency,TargetDistance_Peer,-0.013,0.002,-5.89,<0.05,-0.02,-0.01,0.99996,0.98963,0.03585,,,0.09791,-32.48548,83,6
+Fig. 3d,Model 4,Amplitude ~ TargetDistance_Peer,Amplitude,Intercept,1.4,0.5,2.96,<0.05,0.48,2.34,0.84156,0.64511,0.19239,,,0.58848,-104.88761,83,6
+Fig. 3d,Model 4,Amplitude ~ TargetDistance_Peer,Amplitude,TargetDistance_Peer,0.020,0.005,3.71,<0.05,0.01,0.03,0.96002,0.84784,0.19239,,,0.58848,-104.88761,83,6
+Fig. 4c,Model 5,TakeOffSpeed ~ TargetAngle,TakeOffSpeed,Intercept,0.97,0.03,30.74,<0.05,0.91,1.03,1,1,0.00971,,,0.00248,353.1302,244,10
+Fig. 4c,Model 5,TakeOffSpeed ~ TargetAngle,TakeOffSpeed,TargetAngle,-0.0016,0.0001,-12.70,<0.05,-0.002,-0.001,1,1,0.00971,,,0.00248,353.1302,244,10
+Fig. 4d,Model 6,TakeOffAngle ~ TargetAngle,TakeOffAngle,Intercept,24.98,2.37,10.54,<0.05,20.34,29.63,1,0.99999,53.61951,,,21.94562,-744.26266,244,10
+Fig. 4d,Model 6,TakeOffAngle ~ TargetAngle,TakeOffAngle,TargetAngle,0.69,0.01,57.16,<0.05,0.67,0.72,1,1,53.61951,,,21.94562,-744.26266,244,10
+Fig. 5a,Model 7,HeadAngle ~ TargetAngleFromHead,HeadAngle,Intercept,24.40,1.26,19.36,<0.05,21.93,26.87,1,1,14.55405,,,10.32329,-650.58548,244,10
+Fig. 5a,Model 7,HeadAngle ~ TargetAngleFromHead,HeadAngle,TargetAngleFromHead,0.82,0.01,98.69,<0.05,0.81,0.84,1,1,14.55405,,,10.32329,-650.58548,244,10
+Fig. 5c,Model 8,BodyAngle_Pre100 ~ TargetAngle,BodyAngle_Pre100,Intercept,37.16,1.92,19.32,<0.05,33.39,40.93,1,1,35.21362,,,15.13935,-693.51302,242,10
+Fig. 5c,Model 8,BodyAngle_Pre100 ~ TargetAngle,BodyAngle_Pre100,TargetAngle,0.63,0.01,62.19,<0.05,0.61,0.65,1,1,35.21362,,,15.13935,-693.51302,242,10
+Fig. 5d,Model 9,BodyAngle_Takeoff ~ TargetAngle,BodyAngle_Takeoff,Intercept,38.02,1.22,31.09,<0.05,35.62,40.42,1,1,13.06569,,,15.9474,-695.201,242,10
+Fig. 5d,Model 9,BodyAngle_Takeoff ~ TargetAngle,BodyAngle_Takeoff,TargetAngle,0.75,0.01,71.57,<0.05,0.73,0.77,1,1,13.06569,,,15.9474,-695.201,242,10
+Fig. 5e,Model 10,BodyAngle_Touchdown ~ TargetAngle,BodyAngle_Touchdown,Intercept,69.46,3.55,19.59,<0.05,62.51,76.41,1,1,105.85908,,,167.84657,-976.539,242,10
+Fig. 5e,Model 10,BodyAngle_Touchdown ~ TargetAngle,BodyAngle_Touchdown,TargetAngle,0.92,0.03,27.08,<0.05,0.85,0.98,1,1,105.85908,,,167.84657,-976.539,242,10
