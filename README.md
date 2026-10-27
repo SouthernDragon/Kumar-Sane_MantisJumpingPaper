@@ -1,6 +1,6 @@
 # Mantis Jumping Analysis
 
-This repository contains the Jupyter notebook and data tables used to analyze mantis jumping and peering experiments. The notebook processes DeepLabCut (DLC) body-part coordinates, calculates jump and peering kinematics, fits statistical models, and generates manuscript figures.
+This repository contains the Jupyter notebook and data tables used to analyze mantis jumping and peering experiments. The notebook processes DeepLabCut (DLC) digitized mantis body-part coordinates, calculates jump and peering kinematics, fits statistical models, and generates manuscript figures.
 
 ## Analysis
 
@@ -44,11 +44,3 @@ python -m pip install numpy pandas scipy matplotlib seaborn statsmodels jupyter
 3. Run the figure and statistics sections using the checked-in `JumpKinematics.csv` and `PeeringKinematics.csv` tables.
 4. To recalculate kinematics from the raw coordinate files, review and enable the commented processing and save calls in the relevant notebook cells. The jump calculation updates `JumpKinematics.csv`; save a copy first if you need to preserve the checked-in table.
 5. The statistics section writes `Statistics_MixedEffectsModel_Summary.csv` and `Statistics_IndividualLevelRegressions_Summary.csv` when run.
-
-## Data notes
-
-The jump-processing workflow expects the jump metadata table to include fields such as `filename`, `takeofftime(ms)`, `pixelsize(m)`, `framerate(Hz)`, `TargetPlatform_x`, `TargetPlatform_y`, total mass, and body-part masses. The corresponding raw coordinate files need the body-part x/y columns used in `Code.ipynb` (including head, thorax, abdomen, and leg landmarks).
-
-The peering workflow uses `filename`, `start(ms)`, `stop(ms)`, `Target_y`, `pixelsize(m)`, and `framerate(Hz)` in `PeeringKinematics.csv`, along with `Head_x` and `Head_y` coordinates in each raw trial file.
-
-`Mantis distance and angle.csv` is not present in this repository snapshot. If a notebook cell or figure you need depends on that separate file, obtain it from the original analysis source; the current notebook does not contain a general step that generates it.
